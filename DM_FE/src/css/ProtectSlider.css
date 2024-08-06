@@ -1,0 +1,67 @@
+/* src/css/ProtectSlider.css */
+.protect-slider {
+    position: relative;
+    width: 100%;
+   height: 400px;
+    margin: 0 auto;
+  }
+  
+  .protect-slider .slide-item {
+    position: relative;
+  }
+  
+ .protect-slider .slide-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .protect-slider .slick-arrow{
+    display: block;
+    visibility:visible;
+
+  }
+ 
+  
+  .protect-slider .slick-prev, .slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0;
+  }
+  .slick-prev::before{
+    font-size: 35px;    transition: 0.2s ease-in;
+  }
+  .slick-next::before{
+    font-size: 35px;    transition: 0.2s ease-in;
+  }
+  .protect-slider .slick-prev {
+    left: 10px;
+  }
+  
+  .protect-slider .slick-next {
+    right: 10px;
+  }
+  @media (max-width: 450px) {
+    .protect-slider .slick-next::before{
+      font-size: 30px;
+    }
+    .protect-slider .slick-prev::before{
+      font-size: 30px;
+    }
+    .protect-slider .slick-prev {
+      left: 1px;
+      top:65%;
+    }
+    
+    .protect-slider .slick-next {
+      right: 1px;
+      top:65%;
+    }
+  }

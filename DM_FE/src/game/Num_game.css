@@ -1,0 +1,190 @@
+.Numgame{
+    width:100%;
+    height: 430px;
+    background-color: #fff;
+    padding:30px;
+    margin: 0 auto;
+    user-select: none;
+    box-sizing: border-box;
+}
+.test ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.test{
+   text-align: center;
+   font-weight: bold;
+}
+
+
+.num_result i{
+    margin:0 10px;
+}
+
+.num_btn{
+    margin-top:0px;
+    width:300px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    border: none;
+    background-color: #adebf2;
+
+}
+.num_btn:hover{
+    background-color: #7cdee9;
+}
+li p{
+    font-size: 30px;
+}
+.test ul li b{
+    font-size: 30px;
+}
+.test ul li:nth-child(1) img{
+    width:70%;
+    margin: 0 auto;
+    margin-top:-20px;
+}
+.test ul li:nth-child(2) img{
+    width:70%;
+    margin: 0 auto;
+    margin-top:-50px;
+}
+.test ul li:nth-child(3) img{
+    width:70%;
+    margin: 0 auto;
+    margin-top:-50px;
+}
+.test ul li:nth-child(4){
+    width:100%;
+    margin: 0 auto;
+  margin-top: -70px;
+  display: flex;
+  justify-content: space-between;
+ padding: 0 70px;
+  box-sizing: border-box;
+  padding:0 120px;
+}
+.test ul li:nth-child(4) span{
+    margin-top: 30px;
+    margin-right:147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test ul li:nth-child(4) span input[type=text]{
+    width:80px;
+    height:52px;
+    font-size: 20px;
+    padding:0px;
+    text-align: center;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+.test ul li:nth-child(4) span img{
+   margin-left: -100px;
+}
+.test ul li:nth-child(4) span:nth-child(1) img{
+    margin-left: -30px;
+ }
+ @media (max-width: 450px) {
+    .Numgame{
+        width:100%;
+        height: 430px;
+        background-color: #fff;
+        padding:0px;
+        padding-top: 60px;
+        margin: 0 auto;
+        user-select: none;
+        box-sizing: border-box;
+    }
+    .test ul li{
+        list-style: none;
+        margin-bottom: 60px;
+        width:100%;
+    }
+    
+    .test{
+       text-align: center;
+       font-weight: bold;
+    }  
+    .num_result i{
+        margin:0 10px;
+    }
+    
+    .num_btn{
+        margin-top:2px;
+        width:300px;
+        height: 50px;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+        border: none;
+        background-color: #adebf2;
+    
+    }
+    .num_btn:hover{
+        background-color: #7cdee9;
+    }
+    li p{
+        font-size: 30px;
+    }
+    .test ul li b{
+        font-size: 30px;
+    }
+    .test ul li:nth-child(1) img{
+        width:125%;
+        margin: 0 auto;
+        margin-top:-20px;
+        margin-left: -15%;
+    }
+    .test ul li:nth-child(2) img{
+        width:125%;
+        margin: 0 auto;
+        margin-top:-50px;
+        margin-left: -15%;
+
+    }
+    .test ul li:nth-child(3) img{
+        width:125%;
+        margin: 0 auto;
+        margin-top:-50px;
+        margin-left: -15%;
+    }
+    .test ul li:nth-child(4){
+        width:100%;
+        margin: 0 auto;
+      margin-top: -80px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding:0px;
+    }
+    .test ul li:nth-child(4) span{
+        margin-top: 30px;
+        margin-right:12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .test ul li:nth-child(4) span input[type=text]{
+        width:30px;
+        height:30px;
+        font-size: 20px;
+        padding:0px;
+        text-align: center;
+        border-radius: 0px;
+        margin-top: 20px;
+
+    }
+    .test ul li:nth-child(4) span img{
+       margin-left: -20px;
+       width:70%;
+    }
+    .test ul li:nth-child(4) span:nth-child(1) img{
+        margin-left: -9px;
+     }
+ }

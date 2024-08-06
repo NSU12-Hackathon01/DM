@@ -1,0 +1,275 @@
+.Join{
+    width:80%;
+    box-sizing: border-box;
+    padding-top: 80px;  
+    margin:0 auto;
+    user-select:auto;
+}
+.Join_top{
+    text-align: center;
+    padding-top:50px;
+    box-sizing: border-box;
+}
+.Join_top h2{
+font-size: 35px;
+}
+.Join_top p{
+    color: #858585;
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+.section1 li {
+    height: 105px;
+    line-height: 105px;
+    padding: 0 20px;
+}
+.section1_two li {
+    height: 105px;
+    line-height: 105px;
+    padding: 0 20px;
+}
+.Join input[type="text"]{
+    border: none;
+    width: 50%;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 0px;
+    margin-bottom: 3px;
+    background-color: #F3F3F3;
+    padding-left: 10px;
+}
+ input[type="password"]{
+    border: none;
+    width: 50%;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 0px;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    padding:0 20px;
+}
+input:focus {
+    outline: none;
+}
+
+.error-message{
+    color: red;
+    font-size: 14px;
+   margin-left:150px;
+   margin-top: -60px;
+}
+.Join input[type="radio"] {
+    display: none; /* 기본 라디오 버튼 숨기기 */
+  }
+  
+  .Join .radio-label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #f0f0f0; /* 기본 배경색 */
+    border-radius: 50%;
+    position: relative;
+    position: relative;
+  cursor: pointer;
+  vertical-align: middle; 
+}
+.pd{
+    padding: 0 20px;
+}
+.Join h1{
+    font-size: 25px;
+}
+  
+  .Join .radio-label::after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-color: transparent; /* 기본 상태에서 투명 */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s ease-in;
+    
+  }
+  .la_one{
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .la_one span{
+    margin-right:10px;
+  }
+  
+  .Join input[type="radio"]:checked + .radio-label::after {
+    background-color: #DDDD7B; /* 체크 상태에서 노란색 */
+  }
+
+
+.ra{
+    float: left;
+}
+
+
+.Join input[type="submit"]{
+width:100%;
+border:none;
+border-radius: 9px;
+background-color: #DDDD7B;
+height:70px;
+font-size: 20px;
+color:#000;
+margin-top:50px;
+font-weight: bold;
+cursor: pointer;
+margin-bottom: 50px;
+}
+.Join b{
+    width: 150px;
+    float: left;
+    height:105px;
+    line-height: 105px;
+}
+ @media (max-width: 450px) {
+ 
+  .Join{
+    width:80%;
+    box-sizing: border-box;
+    padding-top: 80px;  
+    margin:0 auto;
+    user-select:auto;
+}
+.Join_top{
+    text-align: center;
+    padding-top:50px;
+    box-sizing: border-box;
+}
+.Join_top h2{
+font-size: 20px;
+text-align: left;
+}
+.Join_top p{
+    color: #858585;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 9px;
+}
+.section1 li {
+    height: 105px;
+    line-height: 105px;
+    padding: 0 20px;
+}
+.section1_two li {
+    height: 105px;
+    line-height: 105px;
+    padding: 0 20px;
+}
+.Join input[type="text"]{
+    border: none;
+    width: 50%;
+    height: 45px;
+    font-size: 8px;
+    border-radius: 0px;
+    margin-bottom: 3px;
+}
+ input[type="password"]{
+    border: none;
+    width: 50%;
+    height: 45px;
+    font-size: 8px;
+    border-radius: 0px;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    padding:0 20px;
+}
+input:focus {
+    outline: none;
+}
+
+.error-message{
+    color: red;
+    font-size: 5px;
+   margin-left:100px;
+   margin-top: -60px;
+   
+}
+.Join input[type="radio"] {
+    display: none; /* 기본 라디오 버튼 숨기기 */
+  }
+  
+  .Join .radio-label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #f0f0f0; /* 기본 배경색 */
+    border-radius: 50%;
+    position: relative;
+    position: relative;
+  cursor: pointer;
+  vertical-align: middle; 
+}
+.pd{
+    padding: 0 20px;
+    font-size: 10px;
+}
+.Join h1{
+    font-size: 15px;
+}
+  
+  .Join .radio-label::after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-color: transparent; /* 기본 상태에서 투명 */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s ease-in;
+    
+  }
+  .la_one{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .la_one span{
+    margin-right:5px;
+  }
+  
+  .Join input[type="radio"]:checked + .radio-label::after {
+    background-color: #DDDD7B; /* 체크 상태에서 노란색 */
+  }
+
+
+.ra{
+    float: left;
+}
+
+
+.Join input[type="submit"]{
+width:100%;
+border:none;
+border-radius: 9px;
+background-color: #DDDD7B;
+height:50px;
+font-size: 15px;
+color:#000;
+margin-top:10px;
+font-weight: bold;
+cursor: pointer;
+margin-bottom: 50px;
+}
+.Join b{
+    width: 100px;
+    float: left;
+    height:105px;
+    line-height: 105px;
+    font-size: 12px;
+}
+ }

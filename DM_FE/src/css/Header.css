@@ -1,0 +1,84 @@
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 15px;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.user {
+    top: 0;
+    position: absolute;
+    right: 60px;
+    width: 300px;
+}
+
+.user ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.user ul li {
+    display: inline-block;
+}
+
+.user a,
+.user button {
+    text-decoration: none;
+    color: #000; /* 버튼과 링크에 기본 색상 적용 */
+}
+
+.user button {
+    border: none;
+    background: transparent; /* 버튼 기본 스타일 제거 */
+    cursor: pointer; /* 버튼에 커서 모양 추가 */
+}
+
+@media (max-width: 450px) {
+    .header {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        top: 0;
+        text-align: center;
+        padding: 0;
+        z-index: 999;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        float: left;
+        margin-left: -20px;
+    }
+
+    .user {
+        width: 400px;
+        font-size: 8px;
+        float: right;
+        position: absolute;
+    }
+
+    .user ul {
+        display: flex;
+        justify-content: center;
+        margin-right: -340px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .user ul li {
+        margin-right: 15px;
+    }
+}

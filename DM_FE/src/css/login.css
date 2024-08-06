@@ -1,0 +1,167 @@
+.left_img{
+    width:50%;
+    float: left;
+    height:100vh;
+    background: url('../../public/images/login/Rectangle\ 33.jpg')  no-repeat;
+    background-size: cover;
+    margin-top:-px;
+    line-height: 500px;
+}
+.right_login{
+    width:50%;
+    float: left;
+    height:100vh;
+    margin-top:-80px;
+    
+    padding:210px 100px;
+    padding-right:100px;
+    padding-top:250px;
+    box-sizing: border-box;
+}
+.right_login h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.right_login p{
+    color:#858585;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.right_login input[type="text"]{
+    width:72%;
+    border: none;
+    outline: none;
+    background-color: #F3F3F3;
+    height:60px;
+    margin-bottom: 20px;
+    padding:0 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.right_login input[type="password"]{
+    width:72%;
+    border: none;
+    outline: none;
+    background-color: #F3F3F3;
+    height:60px;
+    margin-bottom: 20px;
+    padding:0 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.login{
+    width:72%;
+    border: none;
+    outline: none;
+    height:60px;
+    padding:0 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+background-color: #DDDD7B;
+cursor: pointer;
+transition: 0.3s ease-in;
+}
+.login:hover{
+    background-color: #f4f467;
+}
+.bo{
+    width:72%;
+    height:22px;
+    font-size: 13px;
+    margin-top:10px;
+}
+.start{
+    display: inline-block;
+    float: left;
+}
+.find{
+    display: inline-block;
+    float: right;
+}
+input[type=text].id{
+   width: 400px;
+   text-align: left;
+   padding-left: 20px;
+   font-size: 15px;
+}
+input[type=text].pw{
+    width: 400px;
+   text-align: left;
+    padding-left: 20px;
+   font-size: 15px;
+ }
+ @media (max-width: 450px) {
+    .left_img{
+      display: none;
+      visibility: hidden;
+    }
+    .right_login{
+        width:100%;
+        float: left;
+        height:100vh;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .right_login h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .right_login p{
+        color:#858585;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .right_login input[type="text"]{
+        width:100px;
+        border: none;
+        outline: none;
+        background-color: #F3F3F3;
+        height:40px;
+        margin-bottom: 20px;
+        padding:0 20px;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    .login{
+        width:100%;
+        border: none;
+        outline: none;
+        height:60px;
+        padding:0 20px;
+        box-sizing: border-box;
+        border-radius: 20px;
+    background-color: #DDDD7B;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    }
+    .login:hover{
+        background-color: #f4f467;
+    }
+    .bo{
+        width:100%;
+        height:22px;
+        font-size: 13px;
+        margin-top:10px;
+    }
+    .start{
+        display: inline-block;
+        float: left;
+    }
+    .find{
+        display: inline-block;
+        float: right;
+    }
+    input[type=text].id{
+       width: 250px;
+       text-align: left;
+       padding-left: 20px;
+       font-size: 15px;
+    }
+    input[type=text].pw{
+        width: 250px;
+       text-align: left;
+        padding-left: 20px;
+       font-size: 15px;
+     }
+ }

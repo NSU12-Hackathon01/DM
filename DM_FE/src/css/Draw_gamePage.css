@@ -1,0 +1,192 @@
+.Draw_game_bar{
+    width:100%;
+    height:200px;
+    padding:0 20%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    margin:0 auto;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #fff;
+
+}
+.Draw_game_bar ul{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    position:relative;
+}
+.Draw_game_bar ul li{
+    line-height: 120px;
+ 
+}
+.Draw_game_bar ul li em{
+    font-size: 14px;
+    color: #60583D;
+    position:absolute;
+    left:38%;
+}
+.fa-solid{font-size: 36px;
+margin-right: 15px;}
+.game_link{
+    color:#858585;
+    margin-right:15px;
+    transition: 0.3s ease-in;
+}
+.game_link:hover{
+    color:#000;
+}
+/* game bar 복붙하기*/
+.draw_game{
+    width:100%;
+    height:100vh;
+    background-color: #FFE797;
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    padding-top:300px;
+    box-sizing: border-box;
+   overflow: hidden;
+}
+.slick-slider{
+    width:100%;
+}
+.draw_game_wrap{
+    width:80%;
+    margin:0 auto;
+    height:430px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+
+}
+.draw_game_wrap .slick-dots li{
+   overflow: hidden;
+}
+.draw_game_wrap .slick-dots{
+    width:300px;
+    height:30px;
+    position: absolute;
+    top:105%;
+    left: 50%;
+    translate: -50% -50%;;
+}
+.draw_game_wrap .slick-prev{
+    left:-7%;
+    top:45%;
+}
+.draw_game_wrap .slick-prev:before{
+   font-size: 50px;
+   color: #60583D;
+   transition: 0.3s ease-in;
+}
+.draw_game_wrap .slick-next{
+    right:-5%;
+    top:45%;
+
+}
+.draw_game_wrap .slick-next:before{
+   font-size: 50px;
+   color: #60583D;
+   transition: 0.3s ease-in;
+
+}
+
+@media (max-width: 450px) {
+    .Draw_game_bar{
+        width:100%;
+        height:110px;
+        padding:0 5%;
+        padding-top: 80px;
+        box-sizing: border-box;
+        margin:0 auto;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #fff;
+    
+    }
+    .Draw_game_bar ul{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        position:relative;
+    }
+    .Draw_game_bar ul li{
+        line-height: 20px;
+     
+    }
+    .Draw_game_bar ul li em{
+        font-size: 8px;
+        color: #60583D;
+        position:absolute;
+        left:38%;
+    }
+    .Draw_game_bar .fa-solid{font-size: 18px;
+    margin-right: 8px;}
+    .game_link{
+        color:#858585;
+        margin-right:15px;
+        transition: 0.3s ease-in;
+    }
+    .game_link:hover{
+        color:#000;
+    }
+    /* game bar 복붙하기*/
+    .draw_game{
+        width:100%;
+        height:100vh;
+        background-color: #FFE797;
+        position:absolute;
+        top:0;
+        left: 0;
+        z-index: -1;
+        padding-top:300px;
+        box-sizing: border-box;
+       overflow: hidden;
+    }
+    .slick-slider{
+        width:100%;
+    }
+    .draw_game_wrap{
+        width:90%;
+        margin:0 auto;
+        height:470px;
+        position:relative;
+        margin-top:-160px;
+        background-color: #fff;
+        position:relative;
+    
+    }
+    .draw_game_wrap .slick-dots li{
+       overflow: hidden;
+    }
+    .draw_game_wrap .slick-dots{
+        width:300px;
+        height:30px;
+        position: absolute;
+        top:105%;
+        left: 50%;
+        translate: -50% -50%;;
+    }
+    .draw_game_wrap .slick-prev{
+        left:-7%;
+        top:45%;
+    }
+    .draw_game_wrap .slick-prev:before{
+       font-size: 50px;
+       color: #60583D;
+       transition: 0.3s ease-in;
+    }
+    .draw_game_wrap .slick-next{
+        right:-5%;
+        top:45%;
+    
+    }
+    .draw_game_wrap .slick-next:before{
+       font-size: 50px;
+       color: #60583D;
+       transition: 0.3s ease-in;
+    
+    }
+}

@@ -1,0 +1,342 @@
+.dailyMiddle_bar{
+    width:100%;
+    height:200px;
+    padding:0 20%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    margin:0 auto;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #fff;
+
+}
+.dailyMiddle_bar ul{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    position:relative;
+}
+.dailyMiddle_bar ul li{
+    line-height: 120px;
+ 
+}
+.dailyMiddle_bar ul li em{
+    font-size: 14px;
+    color: #60583D;
+    position:absolute;
+    left:28%;
+}
+.fa-solid{font-size: 36px;
+margin-right: 15px;}
+.game_link{
+    color:#858585;
+    margin-right:15px;
+    transition: 0.3s ease-in;
+}
+.game_link:hover{
+    color:#000;
+}
+/* game bar 복붙하기*/
+.dailyMiddle{
+    width:100%;
+    height:100vh;
+    background-color: #e0e2f4;
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    padding-top:300px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.slick-slider{
+    width:100%;
+}
+.dailyMiddle_wrap{
+    width:80%;
+    margin:0 auto;
+    height:400px;
+    position:relative;
+    margin-top:-60px;
+    
+}
+
+.dailyMiddle_wrap .slick-dots li{
+  
+   overflow: hidden;
+}
+.dailyMiddle_wrap .slick-dots{
+    width:300px;
+    height:30px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    translate: -40% 700%;
+    overflow: hidden;
+}
+.dailyMiddle_wrap .slick-prev{
+    left:-7%;
+    top:45%;
+    display: none;
+    visibility: hidden;
+}
+.dailyMiddle_wrap .slick-prev:before{
+   font-size: 50px;
+   color: #60583D;
+   transition: 0.3s ease-in;
+}
+.dailyMiddle_wrap .slick-next{
+    right:-5%;
+    top:45%;
+}
+.dailyMiddle_wrap .slick-next:before{
+   font-size: 50px;
+   color: #60583D;
+   transition: 0.3s ease-in;
+}
+.dailyMiddle_wrap .slick-next{
+    overflow: visible;
+    font-size: 0;
+}
+.dailyMiddle_wrap_result{
+    width:80%;
+    margin:0 auto;
+    height:470px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+   box-sizing: border-box;
+padding:0px 150px;
+padding-top:100px;
+text-align: center;
+}
+.dailyMiddle_wrap_result h2{
+margin-bottom: 50px;
+}
+.num_sum_top{
+  float: left; 
+}
+.num_sum_bottom{
+    float: left; 
+}
+
+.dd{
+    width:100%;
+    margin:0 auto;
+    height:490px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+   box-sizing: border-box;
+
+padding-top:80px;
+text-align: center;
+}
+.dailyMiddleResult{
+    width:80%;
+    margin:0 auto;
+    height:470px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+   box-sizing: border-box;
+padding:0px 150px;
+padding-top:100px;
+text-align: center;
+overflow: scroll;
+overflow-x: hidden;
+}
+.dailyMiddleResult h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.topresult ul{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: #9ea7f6 !important;
+    border-radius: 20px 20px 0 0;
+}
+.bottomresult ul{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: #e0e2f4 !important;
+    color: #000;
+    border-radius: 0px 0px 20px 20px;
+}
+.dailyMiddleResult h3 b{
+    display: inline-block;
+    background-color: #e0e2f4;
+    width:100px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.dailyMiddleResult p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.draw-game-result-image{
+    width: 80%;
+    margin:0 auto;
+    border: 5px solid #e0e2f4 !important;
+}
+.dailycheck{
+    display: block;
+    cursor: pointer;
+    background-color: #e0e2f4 !important;
+
+width: 50%;
+margin: 0 auto;
+border: none;
+height: 20%;
+line-height: 20%;
+border-radius: 20px;
+font-size: 25px;
+font-weight: bold;
+margin:20px auto;
+transition: 0.2s ease-in;
+}
+.dailycheck:hover{
+    background-color: #9ea7f6 !important;
+color: #fff;
+}
+@media (max-width: 450px) {
+    .dailyMiddle_bar{
+        width:100%;
+        height:110px;
+        padding:0 5%;
+        padding-top: 80px;
+        box-sizing: border-box;
+        margin:0 auto;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #fff;
+   
+    }
+    .dailyMiddle_bar ul{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        position:relative;
+    }
+    .dailyMiddle_bar ul li{
+        line-height: 20px;
+     
+    }
+    .dailyMiddle_bar ul li em{
+        font-size: 8px;
+        color: #60583D;
+        position:absolute;
+        left:31%;
+    }
+    .dailyMiddle_bar .fa-solid{font-size: 18px;
+    margin-right: 8px;}
+    .game_link{
+        color:#858585;
+        margin-right:15px;
+        transition: 0.3s ease-in;
+    }
+    .game_link:hover{
+        color:#000;
+    }
+    .dailyMiddle{
+        width:100%;
+        height:100vh;
+      
+        top:0;
+        left: 0;
+        z-index: -1;
+        padding-top:300px;
+        box-sizing: border-box;
+     overflow: hidden;  
+    }
+    .slick-slider{
+        width:100%;
+    }
+    .dailyMiddle_wrap{
+        width:80%;
+        margin:0 auto;
+        height:470px;
+        position:relative;
+        margin-top:-160px;
+        background-color: #fff;
+        position:relative;
+       overflow: visible;
+      
+    }
+    .dailyMiddle_wrap .slick-dots li{
+       overflow: hidden;
+    }
+    .dailyMiddle_wrap .slick-slider .slick-dots{
+        width:300px;
+        height:20px;
+        position: absolute;
+        top:97%;
+        left: 50%;
+       
+    }
+    
+    .dailyMiddle_wrap .slick-prev{
+        left:-7%;
+        top:45%;
+    }
+    .dailyMiddle_wrap .slick-prev:before{
+       font-size: 50px;
+       color: #60583D;
+       transition: 0.3s ease-in;
+    }
+    .dailyMiddle_wrap .slick-next{
+        right:-12%;
+        top:45%;
+    
+    }
+    .dailyMiddle_wrap .slick-next:before{
+       font-size: 30px;
+       color: #60583D;
+       transition: 0.3s ease-in;
+    
+    }
+    .dailyMiddleResult{
+        width:80%;
+        margin:0 auto;
+        height:470px;
+        position:relative;
+        margin-top:-60px;
+        background-color: #fff;
+       box-sizing: border-box;
+    padding:0px 5px;
+    padding-top:80px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: scroll;
+    }
+    .dd{
+        width:100%;
+        margin:0 auto;
+        height: 490px;
+        position:relative;
+        margin-top:-60px;
+        background-color: #fff;
+       box-sizing: border-box;
+    
+    padding-top:80px;
+    text-align: center;
+    }
+}

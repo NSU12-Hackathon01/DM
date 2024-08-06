@@ -1,0 +1,87 @@
+.game-result{
+    width:80%;
+    margin:0 auto;
+    height:430px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+    position:relative;
+}
+ .game-result_result span{
+    font-weight: bold;
+    margin-right: 30px;
+    font-size: 20px;
+ }
+.game-result_result b{
+    background-color: #E0F2F4;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}.findGameScore{
+    text-align: center;
+}
+
+.game-result h2{
+margin-bottom: 50px;
+margin-top: 30px;
+}
+.scoretop{
+    margin:0 auto;
+    width: 80%;
+}
+.scoretop li{
+   float: left;
+   width:33%;
+   background-color: #fcb8c0;
+   height:50px;
+   line-height: 50px;
+   font-size: 22px;
+   font-weight: bold;
+   line-height: 50px;
+   color: #fff;
+}
+.scoretop li:nth-child(1){
+    border-radius: 10px 0 0 0;
+}
+.scoretop li:nth-child(3){
+    border-radius: 0px 10px 0 0;
+}
+
+.scorebottom{
+    margin:0 auto;
+    width: 80%;
+    margin-bottom: 60px;
+}
+.scorebottom li{
+   float: left;
+   width:33%;
+   background-color: #FFDBDF;
+   height:80px;
+   padding: 18px 0px;
+   box-sizing: border-box;
+   font-size: 22px;
+   font-weight: bold;
+   line-height: 50px;
+
+}
+.scorebottom li:nth-child(1){
+    border-radius: 0px 0 0 10px;
+}
+.scorebottom li:nth-child(3){
+    border-radius: 0px 0px 10px 0;
+}
+.clr{clear: both;
+}
+.game-result span{
+    font-weight: bold;
+    margin-right: 30px;
+    font-size: 20px;
+ }
+.game-result b{
+    background-color: #FFDBDF;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}

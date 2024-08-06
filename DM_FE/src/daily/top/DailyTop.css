@@ -1,0 +1,304 @@
+.DailyTop_bar{
+    width:100%;
+    height:200px;
+    padding:0 20%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    margin:0 auto;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #fff;
+
+}
+.DailyTop_bar ul{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    position:relative;
+}
+.DailyTop_bar ul li{
+    line-height: 120px;
+ 
+}
+.DailyTop_bar ul li em{
+    font-size: 14px;
+    color: #60583D;
+    position:absolute;
+    left:28%;
+}
+.fa-solid{font-size: 36px;
+margin-right: 15px;}
+.game_link{
+    color:#858585;
+    margin-right:15px;
+    transition: 0.3s ease-in;
+}
+.game_link:hover{
+    color:#000;
+}
+/* game bar 복붙하기*/
+.DailyTop{
+    width:100%;
+    height:100vh;
+    background-color: #bdbaef;
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    padding-top:300px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.slick-slider{
+    width:100%;
+}
+.DailyTop_wrap{
+    width:80%;
+    margin:0 auto;
+    height:400px;
+    position:relative;
+    margin-top:-60px;
+    
+}
+
+.DailyTop_wrap .slick-dots li{
+  
+   overflow: hidden;
+}
+.DailyTop_wrap .slick-dots{
+    width:300px;
+    height:30px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    translate: -40% 700%;
+    overflow: hidden;
+}
+.DailyTop_wrap .slick-prev{
+    left:-7%;
+    top:45%;
+    display: none;
+    visibility: hidden;
+}
+.DailyTop_wrap .slick-prev:before{
+   font-size: 50px;
+   color: #60583D;
+   transition: 0.3s ease-in;
+}
+.DailyTop_wrap .slick-next{
+    right:-5%;
+    top:45%;
+}
+.DailyTop_wrap .slick-next:before{
+   font-size: 50px;
+   color: #60583D;
+   transition: 0.3s ease-in;
+}
+.DailyTop_wrap .slick-next{
+    overflow: visible;
+    font-size: 0;
+}
+.DailyTop_wrap_result{
+    width:80%;
+    margin:0 auto;
+    height:470px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+   box-sizing: border-box;
+padding:0px 150px;
+padding-top:100px;
+text-align: center;
+}
+.DailyTop_wrap_result h2{
+margin-bottom: 50px;
+}
+.num_sum_top{
+  float: left; 
+}
+.num_sum_bottom{
+    float: left; 
+}
+
+.dd{
+    width:100%;
+    margin:0 auto;
+    height:490px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+   box-sizing: border-box;
+
+padding-top:80px;
+text-align: center;
+}
+.DailyTopResult{
+    width:80%;
+    margin:0 auto;
+    height:470px;
+    position:relative;
+    margin-top:-60px;
+    background-color: #fff;
+   box-sizing: border-box;
+padding:0px 150px;
+padding-top:100px;
+text-align: center;
+overflow: scroll;
+overflow-x: hidden;
+}
+.DailyTopResult h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.topresult ul{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: #74e2ee;
+    border-radius: 20px 20px 0 0;
+}
+.bottomresult ul{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: #E0F2F4;
+    color: #000;
+    border-radius: 0px 0px 20px 20px;
+}
+.DailyTopResult h3 b{
+    display: inline-block;
+    background-color: #E0F2F4;
+    width:100px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.DailyTopResult p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.draw-game-result-image{
+    width: 80%;
+    margin:0 auto;
+    border: 5px solid #E0F2F4;
+}
+.dailycheck{
+    display: block;
+    cursor: pointer;
+    background-color: #E0F2F4;
+width: 50%;
+margin: 0 auto;
+border: none;
+height: 20%;
+line-height: 20%;
+border-radius: 20px;
+font-size: 25px;
+font-weight: bold;
+margin:20px auto;
+transition: 0.2s ease-in;
+}
+.dailycheck:hover{
+    background-color: #74e2ee;
+color: #fff;
+}
+@media (max-width: 450px) {
+    .DailyTop_bar{
+        width:100%;
+        height:110px;
+        padding:0 5%;
+        padding-top: 80px;
+        box-sizing: border-box;
+        margin:0 auto;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #fff;
+    
+    }
+    .DailyTop_bar ul{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        position:relative;
+    }
+    .DailyTop_bar ul li{
+        line-height: 20px;
+     
+    }
+    .DailyTop_bar ul li em{
+        font-size: 8px;
+        color: #60583D;
+        position:absolute;
+        left:31%;
+    }
+    .DailyTop_bar .fa-solid{font-size: 18px;
+    margin-right: 8px;}
+    .game_link{
+        color:#858585;
+        margin-right:15px;
+        transition: 0.3s ease-in;
+    }
+    .game_link:hover{
+        color:#000;
+    }
+    .DailyTop{
+        width:100%;
+        height:100vh;
+        background-color: #E0F2F4;
+        position:absolute;
+        top:0;
+        left: 0;
+        z-index: -1;
+        padding-top:300px;
+        box-sizing: border-box;
+        
+    }
+    .slick-slider{
+        width:100%;
+    }
+    .DailyTop_wrap{
+        width:80%;
+        margin:0 auto;
+        height:470px;
+        position:relative;
+        margin-top:-160px;
+        background-color: #fff;
+        position:relative;
+     
+    }
+    .DailyTop_wrap .slick-dots li{
+       overflow: hidden;
+    }
+    .DailyTop_wrap .slick-slider .slick-dots{
+        width:300px;
+        height:20px;
+        position: absolute;
+        top:107%;
+        left: 50%;
+       
+    }
+    .DailyTop_wrap .slick-next{
+        right:-13%;
+        top:45%;
+    }
+    .DailyTop_wrap .slick-next:before{
+       font-size: 30px;
+       color: #60583D;
+       transition: 0.3s ease-in;
+    }
+
+}

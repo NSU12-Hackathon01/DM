@@ -1,0 +1,319 @@
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid transparent;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.game-board.game-over {
+    border-color: red;
+}
+
+.game-over-message {
+    font-size: 24px;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+    border: 2px solid transparent;
+}
+
+.countdown {
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.game-container {
+    position: relative;
+}
+
+.start-modal {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #333;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.start-modal p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666666;
+
+}
+.start-modal h2 {
+    margin-bottom: 20px;
+}
+
+.start-modal button {
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -20px;
+    margin-top: 40px;
+    background-color: #E0F2F4;
+
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: 0.3s ease-in;
+}
+.start-modal button:hover{
+    background-color: #FFDBDF;
+  color: #333;
+}
+
+.game-board {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    /* 4 columns * (100px width + 10px margin) */
+    border: 2px solid transparent;
+    /* 기본 테두리 색상 */
+}
+
+
+.game-over-message {
+
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    width:500px;
+    height:200px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding:30px;
+    box-sizing: border-box;
+}
+.game-over-message h2{
+color: #000;
+font-size: 25px;
+margin-bottom: 40px;
+}
+.game-over-message p{
+font-size: 18px;
+color: #666666;
+}
+.game-over-message .remember_score
+{
+    width:100px;
+    height: 50px;
+    background-color: #F791A9;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 20px;
+}
+.game-container {
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.attempts-remaining {
+    font-size: 18px;
+    color: green;
+    margin-top: 20px;
+}
+
+.countdown {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    translate: -50% -50%;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.attempts-remaining{
+    position: absolute;
+    top: 5px;
+    left:50%;
+    translate: -50% -50%;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+.daily-con{
+    width:100%;
+    height: 430px;
+    background-color: #fff;
+    padding:30px;
+    margin: 0 auto;
+    user-select: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+@media (max-width: 450px) {
+    .game-board {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid transparent;
+        overflow: hidden;
+        justify-content: center;
+        margin: 0 auto;
+    
+    }
+    
+    .game-board.game-over {
+        border-color: red;
+    }
+    
+    .game-over-message {
+        font-size: 24px;
+        color: red;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .game-board {
+        display: flex;
+        flex-wrap: wrap;
+        width: 440px;
+        border: 2px solid transparent;
+    }
+    
+    .countdown {
+        font-size: 9px;
+        color: blue;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .game-container {
+        position: relative;
+    }
+    
+    .start-modal {
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 2px solid #333;
+        padding: 30px 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        text-align: center;
+        border-radius: 10px;
+        width:70%;
+    
+    }
+    .start-modal p{
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: #666666;
+    
+    }
+    .start-modal h2 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .start-modal button {
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: -20px;
+        margin-top: 20px;
+        background-color: #fcb8c0;
+       color: #fff;
+       border: none;
+       cursor: pointer;
+       border-radius: 10px;
+       transition: 0.3s ease-in;
+    }
+    .start-modal button:hover{
+        background-color: #FFDBDF;
+      color: #333;
+    }
+    
+    .game-board {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        border: 2px solid transparent;
+    }
+    
+    .game-board.game-over {
+        border-color: red;
+        /* 게임 오버 시 빨간색 테두리 */
+    }
+    
+    .game-over-message {
+        font-size: 24px;
+        color: red;
+        text-align: center;
+        margin-top: 20px;
+        position: absolute;
+        width:300px;
+        height:200px;
+        background-color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 50px;
+        padding:20px;
+        box-sizing: border-box;
+    }
+    
+    .game-container {
+        width: 100%;
+        height: 430px;
+        overflow: hidden;
+        justify-content: center;
+    }
+    
+
+    
+    .countdown {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        translate: -50% -50%;
+        font-size: 10px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+    .attempts-remaining{
+        position: absolute;
+        top: 10px;
+        left:85%;
+        translate: -80% -50%;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        width:100px;
+    }
+}
